@@ -14,6 +14,7 @@ Do you miss any metrics? Did you spot an error? Please be sure to check out [the
 
 ## Credits and links
 
+* blog post introducing this repository
 * [Website](https://isellsoap.github.io/front-end-side-of-news/)
 * [GitHub repository](https://github.com/isellsoap/front-end-side-of-news/)
 * [CHANGELOG.md](https://github.com/isellsoap/front-end-side-of-news/blob/gh-pages/CHANGELOG.md) detailing what changed over time
