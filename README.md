@@ -1,6 +1,6 @@
 # The front-end side of news
 
-Front-end metrics from big news sites around the world.
+Front-end metrics from big news sites around the world. https://isellsoap.github.io/front-end-side-of-news/
 
 ## Motivation
 
