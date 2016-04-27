@@ -4,7 +4,7 @@ Front-end metrics from big news sites around the world.
 
 ## Motivation
 
-On March 30th 2015 I tweeted an image of a weekend project I did showing a chart of HTTP requests and page weights of big news sites from various countries. I got a lot of feedback from that tweet (at least for my standards). Anselm Hannemann asked if I would put up a HTML version of the image, so this is it.
+On March 30th 2015 [I tweeted an image](https://twitter.com/isellsoap/status/582456573139804160) of a weekend project I did showing a chart of HTTP requests and page weights of big news sites from various countries. I got a lot of feedback from that tweet (at least for my standards). [Anselm Hannemann asked](https://twitter.com/helloanselm/status/582457282111356928) if I would put up a HTML version of the image, so this is it.
 
 I think especially big news sites have a certain responsibility of delivering a certain quality of front-end code to their customers because they normally have *massive reach*, *massive traffic*, *loyal readers* and are confronted with a *heterogenous pallet of end-user devices* they have to serve. Last but not least they offer *information people want to consume* if they visit their site, so the information should be served as *fast* and *accessible* as possible.
 
