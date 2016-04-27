@@ -4,7 +4,7 @@ Front-end metrics and trivia from big news sites around the world.
 
 ## Resources
 
-* Website
+* [Website](https://isellsoap.github.io/front-end-side-of-news/)
 * [CHANGELOG.md](https://github.com/isellsoap/front-end-side-of-news/blob/gh-pages/CHANGELOG.md) detailing what changed over time
 
 ## License
