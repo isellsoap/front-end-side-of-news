@@ -14,15 +14,15 @@ Do you miss any metrics? Did you spot an error? Please be sure to check out [the
 
 ## Credits and links
 
-* blog post introducing this repository
+* [blog post introducing this repository](https://francescoschwarz.de/en/blog/the-front-end-side-of-news/)
 * [Website](https://isellsoap.github.io/front-end-side-of-news/)
-* [GitHub repository](https://github.com/isellsoap/front-end-side-of-news/)
 * [CHANGELOG.md](https://github.com/isellsoap/front-end-side-of-news/blob/gh-pages/CHANGELOG.md) detailing what changed over time
 * created by [Francesco Schwarz](https://francescoschwarz.de/en/) ([@isellsoap](https://twitter.com/isellsoap))
 * type face: [Fira Sans](https://www.google.com/fonts/specimen/Fira+Sans)
 * color range functionality: [chroma.js](https://github.com/gka/chroma.js/)
 * relative time calculation: [moment.js](https://github.com/moment/moment/)
 * accessible color concept: [Say Goodbye to Red-Green Color Scales](http://vis4.net/blog/posts/goodbye-redgreen-scales/)
+* information about page weight of websites: [Measuring page weight](https://mobiforge.com/design-development/measuring-page-weight)
 
 ## License
 
