@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The front-end side of news</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://isellsoap.github.io/front-end-side-of-news/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+
+    <header class="main-header">
+      <h1>The front-end side of news</h1>
+      <p>Front-end metrics from big news sites around the world.</p>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/isellsoap/front-end-side-of-news">GitHub</a></li>
+          <li><a href="https://francescoschwarz.de/en/blog/the-front-end-side-of-news/">Blog post</a></li>
+          <li><a href="#legend-and-metrics">Legend and metrics</a></li>
+          <li><a href="#motivation">Motivation</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-table-wrapper">
+        <table class="main-table">
+          <thead>
+            <tr>
+              <th scope="col" rowspan="2">Website</th>
+              <th scope="col" rowspan="2" class="automatic-width">Country</th>
+              <th scope="col" rowspan="2">Last time checked</th>
+              <th scope="col" colspan="2">Transferred page weight</th>
+              <th scope="col" colspan="2">W3C validation</th>
+              <th scope="col" rowspan="2">SSL encryption</th>
+              <th scope="col" rowspan="2">Usage of heading elements</th>
+              <th scope="col" rowspan="2">Markup and implementation of site logo</th>
+              <th scope="col" rowspan="2">Usability without JavaScript</th>
+            </tr>
+            <tr>
+              <th scope="col">not cached, MB</th>
+              <th scope="col">cached, KB</th>
+              <th scope="col">Markup</th>
+              <th scope="col">CSS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><a href="http://bild.de/">bild.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td aria-describedby="metric-not-yet-measured"></td>
+              <td aria-describedby="metric-not-yet-measured"></td>
+              <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">3 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">35 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-very-good"></td>
+              <td aria-describedby="metric-usability-without-js-very-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://chip.de/">chip.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>0.96</td>
+              <td>39</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">47 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">94 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://faz.net/">faz.net</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>2.4</td>
+              <td>40</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">545 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">32 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-partially"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://focus.de/">focus.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>3.3</td>
+              <td>78</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">615 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">15 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+
+<!--
+
+<tr>
+              <th scope="row"><a href="http://golem.de/">golem.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td></td>
+              <td></td>
+
+              <td aria-describedby="metric-w3c-validation-"><span class="visually-hidden"> errors</span></td>
+              <td aria-describedby="metric-w3c-validation-"><span class="visually-hidden"> errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-"></td>
+              <td aria-describedby="metric-markup-headings-"></td>
+              <td aria-describedby="metric-markup-site-logo-"></td>
+              <td aria-describedby="metric-usability-without-js-"></td>
+            </tr>
+
+-->
+
+            <tr>
+              <th scope="row"><a href="http://golem.de/">golem.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>1.0</td>
+              <td>66</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">121 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">28 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://handelsblatt.com/">handelsblatt.com</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>3.7</td>
+              <td>115</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">116 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">146 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-bad"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://heise.de/">heise.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>2.6</td>
+              <td>30</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">46 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">59 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://morgenweb.de/">morgenweb.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>5.4</td>
+              <td>136</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">20 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">101 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-partially"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-bad"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://pnp.de/">pnp.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>1.9</td>
+              <td>93</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">226 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">21 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://rp-online.de/">rp-online.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>1.5</td>
+              <td>15</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">115 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">40 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://spiegel.de/">spiegel.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>1.4</td>
+              <td>58</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">220 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">217 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://stern.de/">stern.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>4.6</td>
+              <td>82</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">11 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">181 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-bad"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://sueddeutsche.de/">sueddeutsche.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>2.4</td>
+              <td>62</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">251 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">42 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-bad"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-partially"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://t3n.de">t3n.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>1.5</td>
+              <td>72</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">130 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">106 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-partially"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://welt.de/">welt.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>4.2</td>
+              <td>142</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">163 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">216 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://wiwo.de/">wiwo.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>4.9</td>
+              <td>184</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">111 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">91 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-partially"></td>
+              <td aria-describedby="metric-markup-headings-very-good"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://zeit.de/">zeit.de</a></th>
+              <td class="automatic-width">Germany</td>
+              <td>April 28th 2016</td>
+              <td>1.4</td>
+              <td>136</td>
+              <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">7 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">89 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-very-good"></td>
+              <td aria-describedby="metric-markup-site-logo-very-good"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://abc.com">abc.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>2.3</td>
+              <td>132</td>
+              <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">7 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">80 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-partially"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-very-good"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://arstechnica.com">arstechnica.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>1.3</td>
+              <td>58</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">218 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">48 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-partially"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://bostonglobe.com">bostonglobe.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>2.5</td>
+              <td>214</td>
+              <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">9 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">391 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-partially"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-bad"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://cnet.com">cnet.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>3.1</td>
+              <td>33</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">146 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">124 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-very-good"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://cnn.com">cnn.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>3.5</td>
+              <td>965</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">33 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">110 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-bad"></td>
+              <td aria-describedby="metric-usability-without-js-very-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://espn.com">espn.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>2.3</td>
+              <td>48</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">409 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">267 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://foxnews.com">foxnews.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>1.7</td>
+              <td>159</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">26 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">44 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-very-good"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-partially"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://gizmodo.com">gizmodo.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>3.5</td>
+              <td>74</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">253 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">67 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-partially"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://huffingtonpost.com">huffingtonpost.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>2.7</td>
+              <td>95</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">240 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">332 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-partially"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://latimes.com">latimes.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>0.62</td>
+              <td>26</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">215 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">83 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-bad"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://nbc.com">nbc.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>4.1</td>
+              <td>70</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">27 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">43 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-partially"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-very-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://nytimes.com">nytimes.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>2.0</td>
+              <td>138</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">26 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">47 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://recode.net">recode.net</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>1.7</td>
+              <td>100</td>
+              <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">26 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">176 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-partially"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://techcrunch.com">techcrunch.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>1.5</td>
+              <td>170</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">96 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">61 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-good"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://time.com">time.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>3.1</td>
+              <td>85</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">66 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">69 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-very-good"></td>
+              <td aria-describedby="metric-markup-site-logo-very-good"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://usatoday.com">usatoday.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>2.7</td>
+              <td>24</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">88 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">245 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-partially"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-partially"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://vox.com">vox.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>1.9</td>
+              <td>224</td>
+              <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">9 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">166 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-bad"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://washingtonpost.com">washingtonpost.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>1.8</td>
+              <td>50</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">170 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">115 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-very-good"></td>
+              <td aria-describedby="metric-markup-headings-very-bad"></td>
+              <td aria-describedby="metric-markup-site-logo-good"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="http://wsj.com">wsj.com</a></th>
+              <td class="automatic-width">USA</td>
+              <td>April 26th 2016</td>
+              <td>2.6</td>
+              <td>199</td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">266 errors</span></td>
+              <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">175 errors</span></td>
+              <td aria-describedby="metric-ssl-encryption-bad"></td>
+              <td aria-describedby="metric-markup-headings-good"></td>
+              <td aria-describedby="metric-markup-site-logo-partially"></td>
+              <td aria-describedby="metric-usability-without-js-bad"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <section id="legend-and-metrics">
+        <h2>Legend and metrics</h2>
+
+        <div class="metrics">
+          <section>
+            <h3>Transferred page weight</h3>
+            <p>Scale from <span style="background-color: #4a833e;">very good</span> to <span style="background-color: #834d8e;">very bad</span> or <span id="metric-not-yet-measured">not yet measured or not possible to measure</span>.</p>
+            <p><strong>Please note:</strong> the colors don’t mean that the metric of the website is per se “good” or “bad”, it just means it’s “good” or “bad” <strong>in comparison to all other websites</strong>.</p>
+            <p>“Transferred page weight” measures the total content transferred to the browser, which may be reduced due to compression. Measured on the home page with a 15 inch MacBook and</p>
+            <ul>
+              <li>latest <a href="https://www.google.de/chrome/browser/canary.html">Chrome Canary</a> in fullscreen mode</li>
+              <li>Chrome DevTools’ network tab</li>
+              <li>ad-blocking enabled (for more comparable results)</li>
+            </ul>
+            <p>The <strong>not cached</strong> metric was measured as follows:</p>
+            <ul>
+              <li>open Chrome DevTools and activate “Disable cache”</li>
+              <li>navigate to website</li>
+              <li>wait for at least 10 second after full loaded page before noting the result</li>
+            </ul>
+            <p>The <strong>cached</strong> metric was measured as follows:</p>
+            <ul>
+              <li>open Chrome DevTools and deactivate “Disable cache”</li>
+              <li>navigate to website</li>
+              <li>wait for at least 10 second after full loaded page</li>
+              <li>retype the URL of the website in the address bar and hit enter</li>
+              <li>wait for at least 10 second after full loaded page before noting the result</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>W3C markup and CSS validation</h3>
+            <p>Total amount of W3C markup and CSS validation errors using <a href="https://validator.w3.org/">Markup Validation Service</a> and <a href="https://jigsaw.w3.org/css-validator/">CSS Validation Service</a>.</p>
+            <table>
+              <caption class="visually-hidden">Legend</caption>
+              <tr>
+                <td aria-describedby="metric-w3c-validation-good"></td>
+                <td id="metric-w3c-validation-good">no errors</td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-w3c-validation-partially"></td>
+                <td id="metric-w3c-validation-partially">less than 10 errors</td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-w3c-validation-bad"></td>
+                <td id="metric-w3c-validation-bad">between 10 and 99 errors</td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-w3c-validation-very-bad"></td>
+                <td id="metric-w3c-validation-very-bad">more than 99 errors</td>
+              </tr>
+            </table>
+          </section>
+
+          <section>
+            <h3>SSL encryption</h3>
+            <table>
+              <caption class="visually-hidden">Legend</caption>
+              <tr>
+                <td aria-describedby="metric-ssl-encryption-very-good"></td>
+                <td id="metric-ssl-encryption-very-good">
+                  fully encrypted, no mixed unsecure content, automatic redirect to SSL version of page URL
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-ssl-encryption-partially"></td>
+                <td id="metric-ssl-encryption-partially">
+                  encryption is theoretically available, mixed unsecure content, no automatic redirect to SSL version of page URL
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-ssl-encryption-bad"></td>
+                <td id="metric-ssl-encryption-bad">
+                  no encryption whatsoever
+                </td>
+              </tr>
+            </table>
+          </section>
+
+          <section>
+            <h3>Markup and usage of headings</h3>
+            <table>
+              <caption class="visually-hidden">Legend</caption>
+              <tr>
+                <td aria-describedby="metric-markup-headings-very-good"></td>
+                <td id="metric-markup-headings-very-good">
+                  excellent usage of headings, order of heading levels makes sense
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-markup-headings-good"></td>
+                <td id="metric-markup-headings-good">
+                  pretty good and consistent usage of headings, order of heading levels sometimes not optimal (e.g. <code>h6</code> followed by <code>h2</code>), maybe tiny fraction of actual headings aren’t marked up as heading elements
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-markup-headings-partially"></td>
+                <td id="metric-markup-headings-partially">
+                  overall good and frequent usage of headings, still some or many actual headings aren’t marked up as heading elements
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-markup-headings-bad"></td>
+                <td id="metric-markup-headings-bad">
+                  rare usage of headings, most actual headings aren’t marked up as such
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-markup-headings-very-bad"></td>
+                <td id="metric-markup-headings-very-bad">
+                  no usage of heading elements whatsoever
+                </td>
+              </tr>
+            </table>
+          </section>
+
+          <section>
+            <h3>Markup and implementation of site logo</h3>
+            <table>
+              <caption class="visually-hidden">Legend</caption>
+              <tr>
+                <td aria-describedby="metric-markup-site-logo-very-good"></td>
+                <td id="metric-markup-site-logo-very-good">
+                  image in markup, existing textual representation, schema.org markup
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-markup-site-logo-good"></td>
+                <td id="metric-markup-site-logo-good">
+                  image in markup, existing textual representation
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-markup-site-logo-partially"></td>
+                <td id="metric-markup-site-logo-partially">
+                  CSS background image, existing textual representation, text hidden with CSS (image should be placed in the markup)
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-markup-site-logo-bad"></td>
+                <td id="metric-markup-site-logo-bad">
+                  no textual representation in the markup
+                </td>
+              </tr>
+            </table>
+          </section>
+
+          <section>
+            <h3>Usability without JavaScript</h3>
+            <table>
+              <caption class="visually-hidden">Legend</caption>
+              <tr>
+                <td aria-describedby="metric-usability-without-js-very-good"></td>
+                <td id="metric-usability-without-js-very-good">
+                  almost no difference
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-usability-without-js-good"></td>
+                <td id="metric-usability-without-js-good">
+                  most content visible and clickable, main navigation and search are usable, some images not visible but placeholder images exist
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-usability-without-js-partially"></td>
+                <td id="metric-usability-without-js-partially">
+                  most content visible and clickable, sometimes main navigation and/or search not usable, some or all images underneath the fold not visible
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-usability-without-js-bad"></td>
+                <td id="metric-usability-without-js-bad">
+                  no or only some images visible, main navigation and/or search not usable
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-usability-without-js-very-bad"></td>
+                <td id="metric-usability-without-js-very-bad">
+                  most content not visible or usable, main navigation and search not usable
+                </td>
+              </tr>
+            </table>
+          </section>
+        </div>
+      </section>
+
+      <aside>
+        <section id="motivation">
+          <h2>Motivation</h2>
+          <p>On March 30th 2015 <a href="https://twitter.com/isellsoap/status/582456573139804160">I tweeted an image</a> of a weekend project I did showing a chart of HTTP requests and page weights of big news sites from various countries. I got a lot of feedback from that tweet (at least for my standards). <a href="https://twitter.com/helloanselm/status/582457282111356928">Anselm Hannemann asked</a> if I would put up a HTML version of the image, so this is it.</p>
+          <p>I think especially big news sites have a certain responsibility of delivering a certain quality of front-end code to their customers because they normally have <strong>massive reach</strong>, <strong>massive traffic</strong>, <strong>loyal readers</strong> and are confronted with a <strong>heterogenous pallet of end-user devices</strong> they have to serve. Last but not least they offer information people want to consume if they visit their site, so the information should be served as <strong>fast</strong> and <strong>accessible</strong> as possible.</p>
+        </section>
+
+        <section>
+          <h2>Contributing</h2>
+          <p>Do you miss any metrics? Did you spot an error? Please be sure to check out <a href="https://github.com/isellsoap/front-end-side-of-news/issues">the list of existing issues</a> before creating <a href="https://github.com/isellsoap/front-end-side-of-news/issues/new">one of your own</a>. You are most welcome to do so, I appreciate every feedback, criticism and help.</p>
+        </section>
+
+        <section>
+          <h2>Credits and links</h2>
+          <ul>
+            <li><a href="https://francescoschwarz.de/en/blog/die-frontend-seite-von-nachrichten/">blog post introducing this repository</a></li>
+            <li><a href="https://github.com/isellsoap/front-end-side-of-news">GitHub</a></li>
+            <li>created by <a href="https://francescoschwarz.de/en/">Francesco Schwarz</a> (<a href="https://twitter.com/isellsoap">@isellsoap</a>)</li>
+            <li>type face: <a href="https://www.google.com/fonts/specimen/Fira+Sans">Fira Sans</a></li>
+            <li>color range functionality: <a href="https://github.com/gka/chroma.js/">chroma.js</a></li>
+            <li>relative time calculation: <a href="https://github.com/moment/moment/">moment.js</a></li>
+            <li>icons grabbed from <cite><a href="http://stevefaulkner.github.io/HTML5accessibility/">HTML5 accessibility</a></cite></li>
+            <li>accessible color concept: <cite><a href="http://vis4.net/blog/posts/goodbye-redgreen-scales/">Say Goodbye to Red-Green Color Scales</a></cite></li>
+            <li>information about page weight of websites: <cite><a href="https://mobiforge.com/design-development/measuring-page-weight">Measuring page weight</a></cite></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>License</h2>
+          <p>This repository is published under the <a href="https://opensource.org/licenses/mit-license">MIT License</a>.</p>
+        </section>
+      </aside>
+    </main>
+
+    <script src="scripts/chroma-1.1.1.min.js"></script>
+    <script src="scripts/moment-2.13.0.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>

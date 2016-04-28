@@ -8,7 +8,7 @@ On March 30th 2015 [I tweeted an image](https://twitter.com/isellsoap/status/582
 
 I think especially big news sites have a certain responsibility of delivering a certain quality of front-end code to their customers because they normally have **massive reach**, **massive traffic**, **loyal readers** and are confronted with a **heterogenous pallet of end-user devices** they have to serve. Last but not least they offer **information people want to consume** if they visit their site, so the information should be served as **fast** and **accessible** as possible.
 
-## How can I contribute?
+## Contributing
 
 Do you miss any metrics? Did you spot an error? Please be sure to check out [the list of existing issues](https://github.com/isellsoap/front-end-side-of-news/issues) before creating [one of your own](https://github.com/isellsoap/front-end-side-of-news/issues/new). You are most welcome to do so, I appreciate every feedback, criticism and help.
 
