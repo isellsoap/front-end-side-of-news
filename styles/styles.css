@@ -177,7 +177,6 @@ td[aria-describedby$="-not-yet-measured"],
 .main-table {
   font-size: .75em;
   margin-bottom: 0;
-  width: 100%;
 }
 
 .main-table thead th[colspan] {
@@ -187,6 +186,11 @@ td[aria-describedby$="-not-yet-measured"],
 .main-table thead tr:first-child th:first-child,
 .main-table tbody th {
   border-left: 0;
+}
+
+.main-table th:not(.automatic-width),
+.main-table td:not(.automatic-width) {
+  max-width: 7rem;
 }
 
 /* metrics */
