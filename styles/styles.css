@@ -155,6 +155,13 @@ td[aria-describedby$="-not-yet-measured"],
   padding-left: 1.75rem;
 }
 
+/* main wrapper */
+
+.main-wrapper {
+  margin: auto;
+  max-width: 93.75rem;
+}
+
 /* main header */
 
 .main-header ul {
@@ -245,8 +252,19 @@ td[aria-describedby$="-not-yet-measured"],
     font-size: 1rem;
   }
 
+  .main-header li {
+    margin-right: .5rem;
+  }
+
   .main-table-wrapper {
     margin-left: -1rem;
     margin-right: -1rem;
+  }
+}
+
+@media screen and (min-width: 93.75rem) {
+  .main-table-wrapper {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
