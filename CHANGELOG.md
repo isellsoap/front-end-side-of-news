@@ -1,5 +1,9 @@
 # Changelog
 
+## May 1st 2016
+
+* Added UK sites.
+
 ## April 29th 2016
 
 * New metric: usage of security headers (as defined by [securityheaders.io](https://securityheaders.io/)).
