@@ -31,6 +31,9 @@
     }
   }
 
+  colorizeColumn(4);
+  colorizeColumn(5);
+
   // transform the last time checked dates to relative time (e.g. "3 days ago")
   function timeAgo() {
     for (var i = 2, len = mainTableRows.length; i < len; i++) {
@@ -41,9 +44,6 @@
       }
     }
   }
-
-  colorizeColumn(4);
-  colorizeColumn(5);
 
   timeAgo();
 })();
