@@ -5,6 +5,7 @@
 * Use “good” instead of “very good” for SSL encryption metric.
 * Use fixed categories for page weight metrics. This results in a much clearer result. Before that a “good”/“bad” measure wouldn’t have been per see “good”/“bad”, but only “good”/“bad” in comparison to all other websites.
 * Remove [chroma.js](http://gka.github.io/chroma.js/) dependency (not longer needed).
+* Add french sites.
 
 ## May 1st 2016
 
