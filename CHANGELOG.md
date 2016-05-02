@@ -1,5 +1,11 @@
 # Changelog
 
+## May 2nd 2016
+
+* Use “good” instead of “very good” for SSL encryption metric.
+* Use fixed categories for page weight metrics. This results in a much clearer result. Before that a “good”/“bad” measure wouldn’t have been per see “good”/“bad”, but only “good”/“bad” in comparison to all other websites.
+* Remove [chroma.js](http://gka.github.io/chroma.js/) dependency (not longer needed).
+
 ## May 1st 2016
 
 * Added UK sites.
@@ -11,4 +17,4 @@
 
 ## April 28th 2016
 
-Initial release ([blog post](https://francescoschwarz.de/en/blog/the-front-end-side-of-news/)).
+* Initial release ([blog post](https://francescoschwarz.de/en/blog/the-front-end-side-of-news/)).

@@ -143,16 +143,8 @@ td[aria-describedby$="-partially"] {
   background-image: url("../images/partially.svg");
 }
 
-td[aria-describedby$="-not-yet-measured"],
-#metric-not-yet-measured {
+td[aria-describedby$="-not-available"] {
   background-image: url("../images/na.svg");
-}
-
-#metric-not-yet-measured {
-  background-position: 0 50%;
-  background-repeat: no-repeat;
-  margin-left: .5rem;
-  padding-left: 1.75rem;
 }
 
 /* main wrapper */

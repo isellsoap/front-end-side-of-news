@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://isellsoap.github.io/front-end-side-of-news/">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700">
-    <link rel="stylesheet" href="styles/styles.css?d=20160429">
+    <link rel="stylesheet" href="styles/styles.css?d=20160502">
   </head>
   <body>
 
@@ -41,8 +41,8 @@
               <th scope="col" rowspan="2">Usability without JavaScript</th>
             </tr>
             <tr>
-              <th scope="col">not cached, MB</th>
-              <th scope="col">cached, KB</th>
+              <th scope="col">not cached</th>
+              <th scope="col">cached</th>
               <th scope="col">Markup</th>
               <th scope="col">CSS</th>
               <th scope="col">SSL encryption</th>
@@ -54,8 +54,8 @@
               <th scope="row" class="automatic-width"><a href="http://bild.de/">bild.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td aria-describedby="metric-not-yet-measured"></td>
-              <td aria-describedby="metric-not-yet-measured"></td>
+              <td aria-describedby="metric-page-weight-not-cached-not-available"></td>
+              <td aria-describedby="metric-page-weight-cached-not-available"></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">3 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">35 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -68,8 +68,8 @@
               <th scope="row" class="automatic-width"><a href="http://chip.de/">chip.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>0.96</td>
-              <td>39</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-good"><span class="visually-hidden">0.96 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">39 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">47 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">94 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -82,8 +82,8 @@
               <th scope="row" class="automatic-width"><a href="http://faz.net/">faz.net</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>2.4</td>
-              <td>40</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.4 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">40 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">545 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">32 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -96,8 +96,8 @@
               <th scope="row" class="automatic-width"><a href="http://focus.de/">focus.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>3.3</td>
-              <td>78</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">3.3</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">78</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">615 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">15 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -110,8 +110,8 @@
               <th scope="row" class="automatic-width"><a href="http://golem.de/">golem.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>1.0</td>
-              <td>66</td>
+              <td aria-describedby="metric-page-weight-not-cached-good"><span class="visually-hidden">1.0 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">66 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">121 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">28 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -124,8 +124,8 @@
               <th scope="row" class="automatic-width"><a href="http://handelsblatt.com/">handelsblatt.com</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>3.7</td>
-              <td>115</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">3.7 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">115 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">116 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">146 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -138,8 +138,8 @@
               <th scope="row" class="automatic-width"><a href="http://heise.de/">heise.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>2.6</td>
-              <td>30</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.6 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">30 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">46 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">59 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -152,8 +152,8 @@
               <th scope="row" class="automatic-width"><a href="http://morgenweb.de/">morgenweb.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>5.4</td>
-              <td>136</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">5.4 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">136 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">20 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">101 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-partially"></td>
@@ -166,8 +166,8 @@
               <th scope="row" class="automatic-width"><a href="http://pnp.de/">pnp.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>1.9</td>
-              <td>93</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.9 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">93 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">226 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">21 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -180,8 +180,8 @@
               <th scope="row" class="automatic-width"><a href="http://rp-online.de/">rp-online.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>1.5</td>
-              <td>15</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.5 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">15 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">115 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">40 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -194,8 +194,8 @@
               <th scope="row" class="automatic-width"><a href="http://spiegel.de/">spiegel.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>1.4</td>
-              <td>58</td>
+              <td aria-describedby="metric-page-weight-not-cached-good"><span class="visually-hidden">1.4 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">58 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">220 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">217 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -208,8 +208,8 @@
               <th scope="row" class="automatic-width"><a href="http://stern.de/">stern.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>4.6</td>
-              <td>82</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">4.6 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">82 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">11 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">181 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -222,8 +222,8 @@
               <th scope="row" class="automatic-width"><a href="http://sueddeutsche.de/">sueddeutsche.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>2.4</td>
-              <td>62</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.4 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">62 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">251 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">42 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -236,8 +236,8 @@
               <th scope="row" class="automatic-width"><a href="http://t3n.de">t3n.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>1.5</td>
-              <td>72</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.5 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">72 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">130 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">106 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -250,8 +250,8 @@
               <th scope="row" class="automatic-width"><a href="http://welt.de/">welt.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>4.2</td>
-              <td>142</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">4.2 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">142 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">163 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">216 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -264,8 +264,8 @@
               <th scope="row" class="automatic-width"><a href="http://wiwo.de/">wiwo.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>4.9</td>
-              <td>184</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">4.9 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">184 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">111 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">91 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-partially"></td>
@@ -278,8 +278,8 @@
               <th scope="row" class="automatic-width"><a href="http://zeit.de/">zeit.de</a></th>
               <td class="automatic-width">Germany</td>
               <td>April 28th 2016</td>
-              <td>1.4</td>
-              <td>136</td>
+              <td aria-describedby="metric-page-weight-not-cached-good"><span class="visually-hidden">1.4 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">136 KB</span></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">7 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">89 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -292,8 +292,8 @@
               <th scope="row" class="automatic-width"><a href="http://bbc.com">bbc.com</a></th>
               <td class="automatic-width">UK</td>
               <td>May 1st 2016</td>
-              <td>1.5</td>
-              <td>4</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.5 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">4 KB</span></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">9 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">216 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -306,8 +306,8 @@
               <th scope="row" class="automatic-width"><a href="http://dailymail.co.uk">dailymail.co.uk</a></th>
               <td class="automatic-width">UK</td>
               <td>May 1st 2016</td>
-              <td>8.0</td>
-              <td>74</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">8.0 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">74 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">274 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">369 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -320,8 +320,8 @@
               <th scope="row" class="automatic-width"><a href="http://ft.com">ft.com</a></th>
               <td class="automatic-width">UK</td>
               <td>May 1st 2016</td>
-              <td>3.2</td>
-              <td>139</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">3.2 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">139 KB</span></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">6 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">27 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -334,8 +334,8 @@
               <th scope="row" class="automatic-width"><a href="http://independent.co.uk">independent.co.uk</a></th>
               <td class="automatic-width">UK</td>
               <td>May 1st 2016</td>
-              <td>2.0</td>
-              <td>75</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.0 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">75 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">126 errors</span></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">4 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -348,8 +348,8 @@
               <th scope="row" class="automatic-width"><a href="http://mirror.co.uk">mirror.co.uk</a></th>
               <td class="automatic-width">UK</td>
               <td>May 1st 2016</td>
-              <td>2.3</td>
-              <td>98</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.3 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">98 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">11 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">272 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -362,8 +362,8 @@
               <th scope="row" class="automatic-width"><a href="http://telegraph.co.uk">telegraph.co.uk</a></th>
               <td class="automatic-width">UK</td>
               <td>May 1st 2016</td>
-              <td>5.1</td>
-              <td>133</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">5.1 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">133 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">185 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">290 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -376,8 +376,8 @@
               <th scope="row" class="automatic-width"><a href="http://theguardian.com">theguardian.com</a></th>
               <td class="automatic-width">UK</td>
               <td>May 1st 2016</td>
-              <td>1.3</td>
-              <td>19</td>
+              <td aria-describedby="metric-page-weight-not-cached-good"><span class="visually-hidden">1.3 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">19 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">85 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">643 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -390,8 +390,8 @@
               <th scope="row" class="automatic-width"><a href="http://thesun.co.uk">thesun.co.uk</a></th>
               <td class="automatic-width">UK</td>
               <td>May 1st 2016</td>
-              <td>0.96</td>
-              <td>68</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-good"><span class="visually-hidden">0.96 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">68 KB</span></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">3 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">130 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -404,8 +404,8 @@
               <th scope="row" class="automatic-width"><a href="http://abc.com">abc.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>2.3</td>
-              <td>132</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.3 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">132 KB</span></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">7 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">80 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-partially"></td>
@@ -418,8 +418,8 @@
               <th scope="row" class="automatic-width"><a href="http://arstechnica.com">arstechnica.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>1.3</td>
-              <td>58</td>
+              <td aria-describedby="metric-page-weight-not-cached-good"><span class="visually-hidden">1.3 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">58 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">218 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">48 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -432,8 +432,8 @@
               <th scope="row" class="automatic-width"><a href="http://bostonglobe.com">bostonglobe.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>2.5</td>
-              <td>214</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.5 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-bad"><span class="visually-hidden">214 KB</span></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">9 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">391 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-partially"></td>
@@ -446,8 +446,8 @@
               <th scope="row" class="automatic-width"><a href="http://cnet.com">cnet.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>3.1</td>
-              <td>33</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">3.1 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">33 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">146 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">124 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -460,8 +460,8 @@
               <th scope="row" class="automatic-width"><a href="http://cnn.com">cnn.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>3.5</td>
-              <td>965</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">3.5 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-bad"><span class="visually-hidden">965 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">33 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">110 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -474,8 +474,8 @@
               <th scope="row" class="automatic-width"><a href="http://espn.com">espn.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>2.3</td>
-              <td>48</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.3 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">48 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">409 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">267 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -488,8 +488,8 @@
               <th scope="row" class="automatic-width"><a href="http://foxnews.com">foxnews.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>1.7</td>
-              <td>159</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.7 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">159 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">26 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">44 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -502,8 +502,8 @@
               <th scope="row" class="automatic-width"><a href="http://gizmodo.com">gizmodo.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>3.5</td>
-              <td>74</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">3.5 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">74 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">253 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">67 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-partially"></td>
@@ -516,8 +516,8 @@
               <th scope="row" class="automatic-width"><a href="http://huffingtonpost.com">huffingtonpost.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>2.7</td>
-              <td>95</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.7 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">95 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">240 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">332 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -530,8 +530,8 @@
               <th scope="row" class="automatic-width"><a href="http://latimes.com">latimes.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>0.62</td>
-              <td>26</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-good"><span class="visually-hidden">0.62 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">26 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">215 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">83 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -544,8 +544,8 @@
               <th scope="row" class="automatic-width"><a href="http://nbc.com">nbc.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>4.1</td>
-              <td>70</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">4.1 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">70 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">27 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">43 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-partially"></td>
@@ -558,8 +558,8 @@
               <th scope="row" class="automatic-width"><a href="http://nytimes.com">nytimes.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>2.0</td>
-              <td>138</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.0 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">138 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">26 errors</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">47 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -572,8 +572,8 @@
               <th scope="row" class="automatic-width"><a href="http://recode.net">recode.net</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>1.7</td>
-              <td>100</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.7 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">100 KB</span></td>
               <td aria-describedby="metric-w3c-validation-bad"><span class="visually-hidden">26 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">176 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-partially"></td>
@@ -586,8 +586,8 @@
               <th scope="row" class="automatic-width"><a href="http://techcrunch.com">techcrunch.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>1.5</td>
-              <td>170</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.5 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">170 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">96 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">61 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -600,8 +600,8 @@
               <th scope="row" class="automatic-width"><a href="http://time.com">time.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>3.1</td>
-              <td>85</td>
+              <td aria-describedby="metric-page-weight-not-cached-very-bad"><span class="visually-hidden">3.1 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">85 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">66 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">69 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -614,8 +614,8 @@
               <th scope="row" class="automatic-width"><a href="http://usatoday.com">usatoday.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>2.7</td>
-              <td>24</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.7 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-very-good"><span class="visually-hidden">24 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">88 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">245 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -628,8 +628,8 @@
               <th scope="row" class="automatic-width"><a href="http://vox.com">vox.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>1.9</td>
-              <td>224</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.9 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-bad"><span class="visually-hidden">224 KB</span></td>
               <td aria-describedby="metric-w3c-validation-partially"><span class="visually-hidden">9 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">166 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -642,8 +642,8 @@
               <th scope="row" class="automatic-width"><a href="http://washingtonpost.com">washingtonpost.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>1.8</td>
-              <td>50</td>
+              <td aria-describedby="metric-page-weight-not-cached-partially"><span class="visually-hidden">1.8 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-good"><span class="visually-hidden">50 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">170 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">115 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-good"></td>
@@ -656,8 +656,8 @@
               <th scope="row" class="automatic-width"><a href="http://wsj.com">wsj.com</a></th>
               <td class="automatic-width">USA</td>
               <td>April 26th 2016</td>
-              <td>2.6</td>
-              <td>199</td>
+              <td aria-describedby="metric-page-weight-not-cached-bad"><span class="visually-hidden">2.6 MB</span></td>
+              <td aria-describedby="metric-page-weight-cached-partially"><span class="visually-hidden">199 KB</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">266 errors</span></td>
               <td aria-describedby="metric-w3c-validation-very-bad"><span class="visually-hidden">175 errors</span></td>
               <td aria-describedby="metric-ssl-encryption-bad"></td>
@@ -676,12 +676,93 @@
 
           <section>
             <h3>Transferred page weight</h3>
-            <p>Scale from <span style="background-color: #4a833e;">very good</span> to <span style="background-color: #834d8e;">very bad</span> or <span id="metric-not-yet-measured">not yet measured or not possible to measure</span>.</p>
-            <p><strong>Please note:</strong> the colors don’t mean that the metric of the website is per se “good” or “bad”, it just means it’s “good” or “bad” <strong>in comparison to all other websites</strong>.</p>
+            <p>Metrics for not cached measurements:</p>
+            <table>
+              <caption class="visually-hidden">Legend</caption>
+              <tr>
+                <td aria-describedby="metric-page-weight-not-cached-very-good"></td>
+                <td id="metric-page-weight-not-cached-very-good">
+                  less than 1 MB
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-not-cached-good"></td>
+                <td id="metric-page-weight-not-cached-good">
+                  between 1 and 1.49 MB
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-not-cached-partially"></td>
+                <td id="metric-page-weight-not-cached-partially">
+                  between 1.5 and 1.99 MB
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-not-cached-bad"></td>
+                <td id="metric-page-weight-not-cached-bad">
+                  between 2 and 2.99 MB
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-not-cached-very-bad"></td>
+                <td id="metric-page-weight-not-cached-very-bad">
+                  3 MB and more
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-not-cached-not-available"></td>
+                <td id="metric-page-weight-not-cached-not-available">
+                  not possible to measure
+                </td>
+              </tr>
+            </table>
+
+            <p>Metrics for cached measurements:</p>
+
+            <table>
+              <caption class="visually-hidden">Legend</caption>
+              <tr>
+                <td aria-describedby="metric-page-weight-cached-very-good"></td>
+                <td id="metric-page-weight-cached-very-good">
+                  less than 50 KB
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-cached-good"></td>
+                <td id="metric-page-weight-cached-good">
+                  between 50 and 99 KB
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-cached-partially"></td>
+                <td id="metric-page-weight-cached-partially">
+                  between 100 and 199 KB
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-cached-bad"></td>
+                <td id="metric-page-weight-cached-bad">
+                  between 200 and 299 KB
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-cached-very-bad"></td>
+                <td id="metric-page-weight-cached-very-bad">
+                  300 KB and more
+                </td>
+              </tr>
+              <tr>
+                <td aria-describedby="metric-page-weight-cached-not-available"></td>
+                <td id="metric-page-weight-cached-not-available">
+                  not possible to measure
+                </td>
+              </tr>
+            </table>
+
             <p>“Transferred page weight” measures the total content transferred to the browser, which may be reduced due to compression. Measured on the home page with a 15 inch MacBook and</p>
             <ul>
               <li>latest <a href="https://www.google.de/chrome/browser/canary.html">Chrome Canary</a> in fullscreen mode</li>
-              <li>Chrome DevTools’ network tab</li>
+              <li>Chrome DevTools network tab</li>
               <li>ad-blocking enabled (for more comparable results)</li>
             </ul>
             <p>The <strong>not cached</strong> metric was measured as follows:</p>
@@ -907,7 +988,6 @@
             <li><a href="https://github.com/isellsoap/front-end-side-of-news">GitHub</a></li>
             <li>created by <a href="https://francescoschwarz.de/en/">Francesco Schwarz</a> (<a href="https://twitter.com/isellsoap">@isellsoap</a>)</li>
             <li>type face: <a href="https://www.google.com/fonts/specimen/Fira+Sans">Fira Sans</a></li>
-            <li>color range functionality: <a href="https://github.com/gka/chroma.js/">chroma.js</a></li>
             <li>relative time calculation: <a href="https://github.com/moment/moment/">moment.js</a></li>
             <li>icons grabbed from <cite><a href="http://stevefaulkner.github.io/HTML5accessibility/">HTML5 accessibility</a></cite></li>
             <li>accessible color concept: <cite><a href="http://vis4.net/blog/posts/goodbye-redgreen-scales/">Say Goodbye to Red-Green Color Scales</a></cite></li>
@@ -925,6 +1005,6 @@
     </div>
 
     <script src="scripts/moment-2.13.0.min.js"></script>
-    <script src="scripts/scripts.js"></script>
+    <script src="scripts/scripts.js?d=20160502"></script>
   </body>
 </html>
