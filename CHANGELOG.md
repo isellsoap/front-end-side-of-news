@@ -1,5 +1,10 @@
 # Changelog
 
+## May 3rd 2016
+
+* Fix https://github.com/isellsoap/front-end-side-of-news/issues/19 where I accidently tested the wrong NBC site.
+* Fix https://github.com/isellsoap/front-end-side-of-news/issues/20 where I accidently tested the wrong ABC site.
+
 ## May 2nd 2016
 
 * Use “good” instead of “very good” for SSL encryption metric.
