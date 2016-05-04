@@ -5,6 +5,7 @@
 * Add Italian sites.
 * Show values of metrics like page weight or validation errors.
 * Add average calculation on the bottom of certain metrics.
+* Add heute.de and tagesschau.de.
 
 ## May 3rd 2016
 
