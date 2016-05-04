@@ -202,6 +202,10 @@ td[aria-describedby$="-not-available"] {
   background-position: center;
 }
 
+.no-js .main-table tfoot {
+  display: none;
+}
+
 /* metrics */
 
 .metrics section {
