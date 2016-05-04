@@ -192,6 +192,16 @@ td[aria-describedby$="-not-available"] {
   max-width: 7rem;
 }
 
+.main-table td[aria-describedby^="metric-page-weight-"],
+.main-table td[aria-describedby^="metric-w3c-validation-"],
+.main-table td[aria-describedby^="metric-security-headers"] {
+  background-position: 90%;
+}
+
+.main-table td[aria-describedby$="-not-available"] {
+  background-position: center;
+}
+
 /* metrics */
 
 .metrics section {
