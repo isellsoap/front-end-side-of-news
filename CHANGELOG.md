@@ -3,6 +3,8 @@
 ## May 4th 2016
 
 * Add Italian sites.
+* Show values of metrics like page weight or validation errors.
+* Add average calculation on the bottom of certain metrics.
 
 ## May 3rd 2016
 
