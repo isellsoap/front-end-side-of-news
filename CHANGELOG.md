@@ -1,5 +1,9 @@
 # Changelog
 
+## May 4th 2016
+
+* Add Italian sites.
+
 ## May 3rd 2016
 
 * Fix https://github.com/isellsoap/front-end-side-of-news/issues/19 where I accidently tested the wrong NBC site.
