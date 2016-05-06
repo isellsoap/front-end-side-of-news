@@ -50,11 +50,29 @@
   averageForColumn(5);
   averageForColumn(6);
 
-  // total sites count
   function totalSitesCount(columnNumber) {
     var cellText = document.createTextNode(tbodyCellsofColumn(columnNumber).length + ' websites');
     mainTableTfootRow.cells[columnNumber].appendChild(cellText);
   }
 
   totalSitesCount(0);
+
+  function totalCountriesCount(columnNumber) {
+    var cells = tbodyCellsofColumn(columnNumber);
+    var countries = [];
+    var cellText;
+
+    cells.forEach(function (cell) {
+      var cellHTML = cell.innerHTML;
+      if (cellHTML !== '' && countries.indexOf(cellHTML) === -1) {
+        countries.push(cellHTML);
+      }
+    });
+
+    cellText = document.createTextNode(countries.length + ' countries');
+
+    mainTableTfootRow.cells[columnNumber].appendChild(cellText);
+  }
+
+  totalCountriesCount(1);
 })();
