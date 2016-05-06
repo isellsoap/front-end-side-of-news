@@ -1,7 +1,9 @@
 (function() {
   var mainTable = document.querySelector('.main-table');
   var mainTableTbodyRows = mainTable.querySelectorAll('tbody tr');
+  var mainTableTfootRow = mainTable.querySelector('tfoot tr');
 
+  // store all cells of a certain column into an array
   function tbodyCellsofColumn(columnNumber) {
     var cells = [];
     for (var i = 0, len = mainTableTbodyRows.length; i < len; i++) {
@@ -40,11 +42,19 @@
     average = Math.round((sum / mainTableTbodyRows.length) * 100) / 100;
     cellText = document.createTextNode(average);
 
-    mainTable.querySelector('tfoot tr').cells[columnNumber].appendChild(cellText);
+    mainTableTfootRow.cells[columnNumber].appendChild(cellText);
   }
 
   averageForColumn(3);
   averageForColumn(4);
   averageForColumn(5);
   averageForColumn(6);
+
+  // total sites count
+  function totalSitesCount(columnNumber) {
+    var cellText = document.createTextNode(tbodyCellsofColumn(columnNumber).length + ' websites');
+    mainTableTfootRow.cells[columnNumber].appendChild(cellText);
+  }
+
+  totalSitesCount(0);
 })();
