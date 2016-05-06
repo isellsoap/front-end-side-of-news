@@ -6,6 +6,7 @@
 * “partially” for W3C validation errors now is for “less than 50 errors”. It’s less strict now.
 * Add 20minutes.fr.
 * Add total websites count at the end of the table.
+* Add Dutch sites.
 
 ## May 4th 2016
 
