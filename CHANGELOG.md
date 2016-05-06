@@ -1,5 +1,10 @@
 # Changelog
 
+## May 6th 2016
+
+* Add Australian sites.
+* “partially” for W3C validation errors now is for “less than 50 errors”. It’s less strict now.
+
 ## May 4th 2016
 
 * Add Italian sites.
