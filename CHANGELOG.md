@@ -1,5 +1,10 @@
 # Changelog
 
+## May 17th 2016
+
+* Update chip.de metrics.
+* Add skynews.com metrics.
+
 ## May 6th 2016
 
 * Add Australian sites.
