@@ -1,5 +1,9 @@
 # Changelog
 
+## May 18th 2016
+
+* Add Swiss sites.
+
 ## May 17th 2016
 
 * Update chip.de metrics.
