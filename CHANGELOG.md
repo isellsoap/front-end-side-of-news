@@ -1,5 +1,9 @@
 # Changelog
 
+## May 19th 2016
+
+* Add Spanish sites.
+
 ## May 18th 2016
 
 * Add Swiss sites.
