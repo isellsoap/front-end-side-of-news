@@ -3,6 +3,7 @@
 ## May 19th 2016
 
 * Add Spanish sites.
+* Add gazzetta.it and abc.net.au/news to bump up to 100 sites. 🎉
 
 ## May 18th 2016
 
