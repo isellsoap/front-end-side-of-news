@@ -187,6 +187,10 @@ td[aria-describedby$="-not-available"] {
   border-left: 0;
 }
 
+.main-table tbody tr:hover {
+  background-color: #eee;
+}
+
 .main-table th:not(.automatic-width),
 .main-table td:not(.automatic-width) {
   max-width: 7rem;
